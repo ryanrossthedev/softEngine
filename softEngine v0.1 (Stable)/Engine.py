@@ -1,9 +1,9 @@
-user = random.randint(100000000, 999999999)
+user = input("Enter a username: ")
 
-print("User No.")
 print(user)
 print("logged in.")
 
-crazyMATHZ = (user * 999999999)
+value_A = int(input("Please enter value A for multiplication: "))
+value_B = int(input("Please enter value B for multiplication: "))
 
-print(crazyMATHZ)
+crazyMATHS = (value_A * value_B)
