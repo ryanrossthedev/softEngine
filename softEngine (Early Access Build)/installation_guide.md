@@ -6,4 +6,4 @@
 
 --*END*--
 
-## CURRENT BUILD: *Version 0.3 (Stable Build)*
+## CURRENT BUILD: *Version 1.0 (Early Access Build)*
