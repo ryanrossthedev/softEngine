@@ -3,22 +3,20 @@ user = input("Enter a username: ")
 print(user, "logged in.")
 
 while True:
-    mode = input("Enter your desired mode (Addition or Multiplication): ")
+    mode = input("Enter your desired mode (Big Back or Stickman): ")
 
-    if mode == 'Addition':
-        ValA = int(input("Enter your desired number for Value A: "))
-        ValB = int(input("Enter your desired number for Value B: "))
+    if mode == 'Big Back':
+        Message = input("What is your favourite KFC bundle??")
 
-        CrazyMATHZ = ValA + ValB
+        CrazyMATHZ = (user, " likes ", Message)
         print("Result:", CrazyMATHZ)
 
-    elif mode == 'Multiplication':
-        ValAM = int(input("Enter your desired number for Value A: "))
-        ValBM = int(input("Enter your desired number for Value B: "))
+    elif mode == 'Stickman':
+        Message2 = input("What is your favourite small sized dish?")
 
-        CrazyMATHZm = ValAM * ValBM
+        CrazyMATHZm = (user, " likes ", Message2)
         print("Result:", CrazyMATHZm)
 
     else:
-        print("ERROR: Mode not recognised. Input *is* case sensitive. Ensure correct spelling.")
+        print("ERROR: Mode not recognised. Input *is* case sensitive.")
 
