@@ -5,3 +5,5 @@
 3. redownload for the latest version, as the software is provided "**AS IS**" and does not auto-update. (*as if you'd benifit from it auto-updating*)
 
 --*END*--
+
+## CURRENT BUILD: *Version 0.3 (Stable Build)*
